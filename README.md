@@ -1,11 +1,43 @@
 ## Hi, I'm Đorđe 👋
 
-**Full-stack & mobile developer** from Serbia. I build cross-platform apps with React Native, web apps with React/Next.js and Laravel, and machine-learning pipelines in Python.
+**Full-stack & mobile developer with a machine-learning focus**, based in Serbia. I build cross-platform apps with React Native, web apps with React/Next.js and Laravel, and data and neural-network pipelines in **Python**.
 
 - 🚀 Currently building **[Ticksnap](https://github.com/djordjeradosav/Mobilno)**, a social trading-journal app (Expo · TypeScript · Supabase)
+- 🧠 Latest ML work: **[neural networks for FX price prediction](https://github.com/djordjeradosav/NeuralNetwork-for-Price-Prediction)**, 630 model runs across 6 currency pairs
 - 🎓 Computer science student, focusing on ML and neural networks
 - 💼 **Open to junior / internship roles** in full-stack, mobile, or data
 - 📫 radosavljevicdjordje01@gmail.com
+
+---
+
+### 🧠 Spotlight: Neural networks for FX price prediction
+
+**[NeuralNetwork-for-Price-Prediction](https://github.com/djordjeradosav/NeuralNetwork-for-Price-Prediction)** asks whether a neural network can forecast currency markets. It uses 10 years of daily data for 6 currency pairs (EURUSD, USDCAD, USDCHF, USDCNY, USDGBP, USDJPY).
+
+<p>
+  <a href="https://github.com/djordjeradosav/NeuralNetwork-for-Price-Prediction"><img src="https://raw.githubusercontent.com/djordjeradosav/NeuralNetwork-for-Price-Prediction/main/grafovi/plot1_cene.png" width="49%" alt="Currency pair prices 2016-2026" /></a>
+  <a href="https://github.com/djordjeradosav/NeuralNetwork-for-Price-Prediction"><img src="https://raw.githubusercontent.com/djordjeradosav/NeuralNetwork-for-Price-Prediction/main/grafovi/plot9_heatmapa_r2.png" width="49%" alt="R² heatmap for price prediction" /></a>
+</p>
+
+| | |
+|---|---|
+| **Tasks** | Predict the future price, the future return and the up/down direction, 1, 3, 5 and 10 trading days ahead |
+| **Features** | 13 technical indicators (RSI, MACD, ATR, KAMA, CCI, Parabolic SAR…), lagged prices, and ROC/SMA transforms |
+| **Model** | scikit-learn MLP (128-64-32, ReLU, Adam, L2, early stopping) for both regression and classification |
+| **Scale** | 27 experiment variants × 6 pairs × up to 4 horizons = **630 runs**, all logged with MAE, RMSE, R², MAPE, accuracy, F1 and confusion matrices |
+| **Results** | Price R² up to **0.986** (EURUSD, 1 day). Direction accuracy up to **70.7%** against a 50% baseline (USDCAD, 3 days). The README also covers where the model fails and why |
+
+---
+
+### 🐍 Python & machine learning
+
+- **Data wrangling:** cleaning messy CSVs, aligning time series and handling missing values (choosing mean or median after a Shapiro–Wilk test), with pandas and NumPy
+- **Feature engineering:** technical indicators (`ta`, `stockstats`, and hand-written implementations), lag features, ROC/SMA transforms and scaling
+- **Neural networks:** MLP regressors and classifiers, experiment grids, early stopping and regularisation
+- **Classical ML:** linear regression, decision trees, kNN, K-Means and hierarchical clustering ([Models](https://github.com/djordjeradosav/Models))
+- **Evaluation:** MAE, RMSE, R², MAPE, accuracy, precision/recall/F1, confusion matrices, silhouette score and elbow method
+- **Reporting:** Matplotlib and Seaborn charts, plus automated Excel result exports (`xlsxwriter`)
+- **Projects:** [FX Neural Networks](https://github.com/djordjeradosav/NeuralNetwork-for-Price-Prediction) · [PriceTrend](https://github.com/djordjeradosav/PriceTrend) (the same research applied to stocks on 9 exchanges) · [ML Models](https://github.com/djordjeradosav/Models)
 
 ---
 
@@ -28,7 +60,7 @@
 **Languages:** TypeScript · JavaScript · Python · PHP · Swift · SQL
 **Frontend & mobile:** React · React Native / Expo · Next.js · Tailwind CSS · SwiftUI
 **Backend & data:** Laravel · Supabase · PostgreSQL · MySQL · REST APIs
-**ML / data:** scikit-learn · pandas · NumPy · Jupyter
+**Python / ML:** scikit-learn (MLP, trees, kNN, clustering) · pandas · NumPy · SciPy · Matplotlib · Seaborn · ta · Jupyter
 **Tools:** Git · Vite · EAS · Vercel
 
 ---
