@@ -3,7 +3,7 @@
 **Full-stack & mobile developer** from Serbia. I build cross-platform apps with React Native, web apps with React/Next.js and Laravel, and machine-learning pipelines in Python.
 
 - 🚀 Currently building **[Ticksnap](https://github.com/djordjeradosav/Mobilno)**, a social trading-journal app (Expo · TypeScript · Supabase)
-- 🎓 Computer science student, focusing on ML and computational intelligence
+- 🎓 Computer science student, focusing on ML and neural networks
 - 💼 **Open to junior / internship roles** in full-stack, mobile, or data
 - 📫 radosavljevicdjordje01@gmail.com
 
@@ -14,6 +14,7 @@
 | Project | What it is | Stack |
 |---|---|---|
 | [**Ticksnap**](https://github.com/djordjeradosav/Mobilno) | Social trading journal: trade logging, P&L analytics, follows/comments, live US macro data | React Native, Expo, TypeScript, Supabase |
+| [**FX Neural Networks**](https://github.com/djordjeradosav/NeuralNetwork-for-Price-Prediction) | MLPs predicting price, return and direction for 6 currency pairs across 630 runs; up to 70.7% direction accuracy | Python, scikit-learn, pandas |
 | [**PriceTrend**](https://github.com/djordjeradosav/PriceTrend) | ML pipeline that predicts stock and FX price trends from 12 hand-built technical indicators | Python, pandas, scikit-learn |
 | [**E-commerce Cart**](https://github.com/djordjeradosav/e-com) | Shopping cart with queued low-stock alerts and scheduled sales reports | Laravel 11, React, Inertia.js, Tailwind |
 | [**CRM API**](https://github.com/djordjeradosav/CRMAPPBACK) + [**Dashboard**](https://github.com/djordjeradosav/CRMFINALE) | Clients/contacts/invoices CRM with token auth and role-based access | Laravel 12, Sanctum, React |
