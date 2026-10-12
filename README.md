@@ -48,7 +48,7 @@ Most of my projects are about financial markets. I'm working toward a career in 
 | Project | Finance angle |
 |---|---|
 | [FX Neural Networks](https://github.com/djordjeradosav/NeuralNetwork-for-Price-Prediction) | Price, return and direction forecasting for 6 currency pairs from 13 technical indicators |
-| [PriceTrend](https://github.com/djordjeradosav/PriceTrend) | The same research applied to stocks on 9 exchanges (NYSE, NASDAQ, LSE, Xetra, TSE…) |
+| [PriceTrend](https://github.com/djordjeradosav/PriceTrend) | The same research applied to stocks on 9 exchanges (US, UK, Europe, Japan, China) |
 | [Ticksnap](https://github.com/djordjeradosav/Mobilno) | Trading journal with P&L analytics and live US macro data (FRED) |
 | [IPO Tracker](https://github.com/djordjeradosav/IPO) | IPO calendar backed by a market-data API |
 
