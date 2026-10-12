@@ -5,7 +5,7 @@
 - 🚀 Currently building **[Ticksnap](https://github.com/djordjeradosav/Mobilno)**, a social trading-journal app (Expo · TypeScript · Supabase)
 - 🧠 Latest ML work: **[neural networks for FX price prediction](https://github.com/djordjeradosav/NeuralNetwork-for-Price-Prediction)**, 630 model runs across 6 currency pairs
 - 🎓 Computer science student, focusing on ML and neural networks
-- 💼 **Open to junior / internship roles** in full-stack, mobile, or data
+- 💼 **Open to junior / internship roles** in full-stack, mobile, data, or quant
 - 📫 radosavljevicdjordje01@gmail.com
 
 ---
@@ -38,6 +38,21 @@
 - **Evaluation:** MAE, RMSE, R², MAPE, accuracy, precision/recall/F1, confusion matrices, silhouette score and elbow method
 - **Reporting:** Matplotlib and Seaborn charts, plus automated Excel result exports (`xlsxwriter`)
 - **Projects:** [FX Neural Networks](https://github.com/djordjeradosav/NeuralNetwork-for-Price-Prediction) · [PriceTrend](https://github.com/djordjeradosav/PriceTrend) (the same research applied to stocks on 9 exchanges) · [ML Models](https://github.com/djordjeradosav/Models)
+
+---
+
+### 📈 Quant & finance
+
+Most of my projects are about financial markets. I'm working toward a career in **quantitative finance**.
+
+| Project | Finance angle |
+|---|---|
+| [FX Neural Networks](https://github.com/djordjeradosav/NeuralNetwork-for-Price-Prediction) | Price, return and direction forecasting for 6 currency pairs from 13 technical indicators |
+| [PriceTrend](https://github.com/djordjeradosav/PriceTrend) | The same research applied to stocks on 9 exchanges (NYSE, NASDAQ, LSE, Xetra, TSE…) |
+| [Ticksnap](https://github.com/djordjeradosav/Mobilno) | Trading journal with P&L analytics and live US macro data (FRED) |
+| [IPO Tracker](https://github.com/djordjeradosav/IPO) | IPO calendar backed by a market-data API |
+
+**Next up:** walk-forward backtesting with transaction costs, risk metrics (Sharpe ratio, max drawdown), portfolio optimization (mean-variance, risk parity) and options pricing (Black-Scholes, Monte Carlo).
 
 ---
 
